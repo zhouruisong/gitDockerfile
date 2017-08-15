@@ -16,7 +16,7 @@ libpng-devel jemalloc-devel
 RUN mkdir -p /usr/local/sandai
 RUN mkdir -p /etc/yum.repos.d/
 #RUN touch /etc/yum.repos.d/ots.repo
-ADD ots.repo /etc/yum.repos.d/
-RUN ls /etc/yum.repos.d
-RUN yum -y install tfdfs
+#ADD ots.repo /etc/yum.repos.d/
+#RUN ls /etc/yum.repos.d
+#RUN yum -y install tfdfs
 RUN yum clean all
